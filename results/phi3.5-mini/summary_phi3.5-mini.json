@@ -1,0 +1,32 @@
+{
+  "model_key": "phi3.5-mini",
+  "model_name": "microsoft/Phi-3.5-mini-instruct",
+  "num_layers": 32,
+  "best_probe_layer": 21,
+  "probe_held_out_acc": 0.6444444444444445,
+  "probe_shuffled_acc": 0.4666666666666667,
+  "n_truth_probe_items": 180,
+  "n_debate_items_total": 300,
+  "n_debate_items_usable": 29,
+  "natural_disagreement_rate": 0.8833333333333333,
+  "behavioral_flip_rate_overall": 0.3793103448275862,
+  "behavioral_flip_rate_by_domain": {
+    "geography": 0.0,
+    "history": 0.0,
+    "math": 0.5789473684210527,
+    "science": 0.0
+  },
+  "behavioral_flip_rate_by_difficulty": {
+    "easy": 0.0,
+    "hard": 0.0,
+    "medium": 0.55
+  },
+  "n_non_flipped": 18,
+  "silent_capitulation_mean_delta": -0.6964583473423256,
+  "silent_capitulation_ttest_p": 3.9810168139604154e-07,
+  "wrong_tutor_confidence_by_flip": {
+    "False": 1.0,
+    "True": 1.0
+  },
+  "wrong_tutor_confidence_flip_correlation": NaN
+}

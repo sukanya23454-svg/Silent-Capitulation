@@ -1,0 +1,32 @@
+{
+  "model_key": "llama3.1-8b",
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "num_layers": 32,
+  "best_probe_layer": 13,
+  "probe_held_out_acc": 0.6888888888888889,
+  "probe_shuffled_acc": 0.49777777777777776,
+  "n_truth_probe_items": 180,
+  "n_debate_items_total": 300,
+  "n_debate_items_usable": 44,
+  "natural_disagreement_rate": 0.7333333333333333,
+  "behavioral_flip_rate_overall": 0.3409090909090909,
+  "behavioral_flip_rate_by_domain": {
+    "geography": 0.3333333333333333,
+    "history": 0.0,
+    "math": 0.36363636363636365,
+    "science": 0.3333333333333333
+  },
+  "behavioral_flip_rate_by_difficulty": {
+    "easy": 1.0,
+    "hard": 0.3,
+    "medium": 0.3333333333333333
+  },
+  "n_non_flipped": 29,
+  "silent_capitulation_mean_delta": -0.2389429932105217,
+  "silent_capitulation_ttest_p": 8.275526822806377e-11,
+  "wrong_tutor_confidence_by_flip": {
+    "False": 0.5610685018899699,
+    "True": 0.5740849664320646
+  },
+  "wrong_tutor_confidence_flip_correlation": 0.05331749973116133
+}
